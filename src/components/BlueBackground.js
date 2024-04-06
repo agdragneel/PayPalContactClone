@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BlueBackground() {
   return (
-    <section className="bg-blue-950 text-white py-36">
+    <section className="bg-blue-900 text-white py-36">
     <div className="container mx-auto px-4">
       
     <h1 className="text-4xl font-semi-bold text-left mx-16">Connect with our <br/>Sales Team</h1>

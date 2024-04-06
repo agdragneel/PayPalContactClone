@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="bg-white">
       {/* First part: Logo */}
       <div className="bg-white px-8 py-4 flex items-center justify-between">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="PayPal Logo" className="h-24" />
+        <img src="https://1000logos.net/wp-content/uploads/2017/05/PayPal-Logo-768x483.jpg" alt="PayPal Logo" className="h-24" />
       </div>
 
       {/* Second part: First column of options */}

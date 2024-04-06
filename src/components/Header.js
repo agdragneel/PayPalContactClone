@@ -23,7 +23,7 @@ export default function Header() {
         {/* Login and Signup buttons right-aligned */}
         <div className="flex">
           <WhiteButton buttonText="Login"/>
-          <BlueButton buttonText="Register"/>
+          <BlueButton buttonText="Sign Up"/>
         </div>
       </div>
     </header>

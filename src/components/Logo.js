@@ -3,7 +3,7 @@ import React from 'react'
 export default function Logo() {
   return (
     <div className="logo">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="Logo" className="h-8 w-8 ml-4" />
+        <img src="https://1000logos.net/wp-content/uploads/2017/05/emblem-Paypal-768x768.jpg" alt="Logo" className="h-8 w-8 ml-4" />
     </div>
   )
 }
