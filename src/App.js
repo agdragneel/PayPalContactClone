@@ -5,7 +5,7 @@ import './App.css';
 import WhiteBackground from './components/WhiteBackground';
 import BlueBackground from './components/BlueBackground';
 import Form, { MobileForm } from './components/Form'; // Import MobileForm
-import Footer from './components/Footer';
+import Footer, { MobileFooter } from './components/Footer';
 import Sitemap from './components/Sitemap';
 
 function App() {
@@ -37,6 +37,7 @@ function App() {
           <BlueBackground />
           <MobileForm /> {/* Render MobileForm between Blue and White Background */}
           <WhiteBackground />
+          <MobileFooter/>
           
         </>
       ) : (

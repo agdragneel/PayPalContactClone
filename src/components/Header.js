@@ -58,10 +58,10 @@ export default function Header() {
 
           {/* Login and Signup buttons (for mobile viewport) */}
           {isMobileView && (
-            <div className="flex justify-end">
+            <div className="flex ">
             <WhiteButton buttonText="Login" />
             <div className="ml-2">
-              <BlueButton buttonText="Sign Up" />
+              <BlueButton buttonText="Signup" />
             </div>
           </div>
           )}
