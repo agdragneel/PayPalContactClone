@@ -3,6 +3,7 @@ import './App.css';
 import Form from './components/Form';
 import WhiteBackground from './components/WhiteBackground';
 import BlueBackground from './components/BlueBackground';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <BlueBackground/>
       <WhiteBackground/>
       <Form/>
+      <Footer/>
     </div>
   );
 }
