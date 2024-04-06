@@ -6,7 +6,7 @@ import BlueButton from "./BlueButton";
 
 export default function Header() {
   return (
-    <header className="bg-white-800 text-white">
+    <header className="bg-white-800 text-white w-full">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         {/* Logo with reduced margin */}
         <div className="flex items-center">
@@ -24,7 +24,6 @@ export default function Header() {
         <div className="flex">
           <WhiteButton buttonText="Login"/>
           <BlueButton buttonText="Register"/>
-          
         </div>
       </div>
     </header>
