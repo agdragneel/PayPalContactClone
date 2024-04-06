@@ -31,7 +31,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {isMobile && <BlueBackground />}
+      {isMobile && (
+        <>
+          <BlueBackground />
+          <WhiteBackground />
+        </>
+      )}
       {!isMobile && (
         <>
           <BlueBackground />

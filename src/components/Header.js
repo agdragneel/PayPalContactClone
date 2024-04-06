@@ -58,19 +58,21 @@ export default function Header() {
 
           {/* Login and Signup buttons (for mobile viewport) */}
           {isMobileView && (
-            <div className="flex">
-              <WhiteButton buttonText="Login" />
+            <div className="flex justify-end">
+            <WhiteButton buttonText="Login" />
+            <div className="ml-2">
               <BlueButton buttonText="Sign Up" />
             </div>
+          </div>
           )}
-        </div>
 
-        {/* Navigator (for PC viewport) */}
-        {!isMobileView && <Navigator />}
+          {/* Navigator (for PC viewport) */}
+          {!isMobileView && <Navigator />}
+        </div>
 
         {/* Login and Signup buttons (for PC viewport) */}
         {!isMobileView && (
-          <div className="flex">
+          <div className="flex ">
             <WhiteButton buttonText="Login" />
             <div className="ml-2">
               <BlueButton buttonText="Sign Up" />
