@@ -1,11 +1,12 @@
+// App.js
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import './App.css';
-import Form from './components/Form';
 import WhiteBackground from './components/WhiteBackground';
 import BlueBackground from './components/BlueBackground';
-import Sitemap from './components/Sitemap';
+import Form, { MobileForm } from './components/Form'; // Import MobileForm
 import Footer from './components/Footer';
+import Sitemap from './components/Sitemap';
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -31,17 +32,18 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {isMobile && (
+      {isMobile ? (
         <>
           <BlueBackground />
+          <MobileForm /> {/* Render MobileForm between Blue and White Background */}
           <WhiteBackground />
+          
         </>
-      )}
-      {!isMobile && (
+      ) : (
         <>
           <BlueBackground />
-          <WhiteBackground />
           <Form />
+          <WhiteBackground />
           <Sitemap />
           <Footer />
         </>
