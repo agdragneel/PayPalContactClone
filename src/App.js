@@ -30,11 +30,10 @@ function App() {
 
   return (
     <div className="App">
-      {isMobile ? (
-        <Header />
-      ) : (
+      <Header />
+      {isMobile && <BlueBackground />}
+      {!isMobile && (
         <>
-          <Header />
           <BlueBackground />
           <WhiteBackground />
           <Form />
